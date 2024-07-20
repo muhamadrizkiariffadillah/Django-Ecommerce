@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -128,3 +129,12 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Jazzmin Settings
+JAZZMIN_SETTINGS = {
+    'site_title': "Self Learning",
+    'site_header':"Self Learning",
+    'site_brand':"SF",
+    'welcome_sign':"Welcome to Self Learning",
+    'copyright':'SelfLearning',
+}
