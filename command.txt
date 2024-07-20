@@ -1,0 +1,21 @@
+python -m venv venv
+
+django-admin startproject  backend
+
+pip install requirements.txt
+
+source venv/bin/activate
+
+pip install requirements.txt
+
+pip freeze > requirements
+
+cd backend
+
+python manage.py startapp user_auths
+python manage.py startapp vendor
+python manage.py startapp store
+python manage.py startapp customer
+python manage.py startapp api
+
+
