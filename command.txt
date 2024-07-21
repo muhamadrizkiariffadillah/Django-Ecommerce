@@ -12,7 +12,7 @@ pip freeze > requirements
 
 cd backend
 
-python manage.py startapp user_auths
+python manage.py startapp userauth
 python manage.py startapp vendor
 python manage.py startapp store
 python manage.py startapp customer
